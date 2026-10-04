@@ -1,0 +1,42 @@
+﻿COMANDO INICIAL GRATUITO - SEU PRIMEIRO VIDEO ANIMADO COM IA
+Max Willy
+
+Cole o texto abaixo no Claude Code, aberto dentro de um projeto Remotion.
+Requisitos: Node.js, Claude Code (exige plano pago do Claude) e um projeto criado com:
+  npx create-video@latest --yes --blank --no-tailwind meu-video
+  cd meu-video
+  npm i
+  npx remotion skills add
+  claude
+
+----- COPIE A PARTIR DAQUI -----
+Crie meu primeiro vídeo animado neste projeto Remotion. Sou iniciante: faça tudo por mim e explique o resultado em português simples.
+
+FORMATO
+- Vertical 1080 x 1920, 30 fps, 15 segundos (450 frames).
+- Registre a composição no Root com o id "MeuVideo".
+
+CENAS
+1. Abertura (0 a 5 s): o título "Seu primeiro vídeo com IA" entra com animação suave, com uma forma geométrica de destaque atrás.
+2. Benefício (5 a 10 s): a frase "Textos e formas animados em minutos de edição, não em horas" aparece em partes, com 3 ícones simples feitos com formas (círculo, quadrado, triângulo).
+3. Chamada para ação (10 a 15 s): o texto "Comece hoje" em destaque, um botão desenhado com a frase "Salve este vídeo" e o nome da marca "Minha Marca" no rodapé.
+
+ESTILO
+- Fundo escuro #070B14, cor principal #2563EB, destaque #38BDF8, texto #F8FAFC.
+- Fonte sem serifa, grande e legível no celular. Nenhum texto fora da tela.
+- Use apenas textos, formas e gradientes. Não use imagens, áudio, internet nem serviços pagos.
+- Transições suaves entre as cenas.
+
+ORGANIZAÇÃO
+- Deixe todas as frases, cores e o nome da marca no topo do arquivo do vídeo, em um bloco fácil de editar.
+
+QUANDO TERMINAR
+- Rode "npx tsc --noEmit" e corrija qualquer erro.
+- Não exporte o vídeo ainda.
+- Me diga: qual arquivo editar para trocar frases e cores, como abrir a prévia e o comando exato para exportar o MP4 em out/meu-video.mp4.
+----- ATE AQUI -----
+
+Ver a previa: npm run dev
+Exportar o MP4: npx remotion render MeuVideo out/meu-video.mp4
+
+Guia completo ilustrado: https://rawixcompany-eng.github.io/primeiro-video-animado-ia/
